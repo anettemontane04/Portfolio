@@ -9,6 +9,7 @@
 
 	    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+	    
 	
         wrapper{
 		padding: 5%;
@@ -20,7 +21,7 @@
 	    }
 	
 	    header{
-		padding: 25px;
+		padding: 10px;
 		text-align: center;
 		vertical-align: middle;
 		background-color:#E0D4B8; 
@@ -32,23 +33,24 @@
 		
 		}
 		
-	div{
-		display: inline-block;
-	}
 		
 	section{
-		display: inline-block;
+	  padding: 20px;
+      display: inline-block;
+	  vertical-align: middle;
 	}
 	
 		main{
 		color:#E0D4B8;
 		}
 	
-	   img{
-	   background-color:#E0D4B8; 
-	   padding: 20px;
-	   border-radius: 10px;
-	   }
+	footer {
+		background-color:#E0D4B8;
+		border-radius: 10px;
+		 padding: 20px;
+		font-family: "Indie Flower", cursive;
+		color: #7F5838;
+	}
 	
 	   button{
 		background-color: #E0D4B8;
@@ -63,6 +65,7 @@
 	
 	   button:hover{
 		background-color:#BB8B63;
+		border: thick;
 	   }
 		
 		.center {
@@ -78,12 +81,10 @@
 	   .banner {
 	   margin-bottom:10px;
 	   margin-top:20px;
+	   background-color:#E0D4B8; 
+	   padding: 20px;
 	   border-radius: 10px;
 	   }
-	
-	.mascots {
-		
-	}
 	   
 	   h1{ 
 	   color: #7F5838;
@@ -91,22 +92,26 @@
 	   font-family: "Shizuru Regular";
 	   }
 	
-	   h4{ 
-	   color: #7F5838;
-	   font-size: 25px;
-	   }
 	
 	h4{ 
 	   color: #7F5838;
-	   font-size: 20px;
+	   font-size: 25px;
 	   background-color: #E0D4B8;
-		padding: 10px;
+       padding: 10px;
 	   border-radius: 10px;
-		width:520px;
-		font-family: "Indie Flower", cursive;
+	   font-family: "Indie Flower", cursive;
 		
 	   }
 	
+	@media (min-width:1200px) {
+			wrapper {
+				width: 1140px;
+			}
+			
+			footer {
+				width: 1000px;
+			}
+		}
 	
 	</style>
 	
@@ -116,7 +121,7 @@
 	
 		<header>
 			
-		<img src="https://github.com/anettemontane04/Portfolio/blob/main/gra1750P5AnetteMontane2024/Flutter%20Fox%20Logo.png?raw=true" width="30%" class="logo">
+		<img src="https://github.com/anettemontane04/Portfolio/blob/main/gra1750P5AnetteMontane2024/Flutter%20Fox%20Logo.png?raw=true" width="55%" class="logo">
 		
 			
 	    </header>
@@ -125,33 +130,35 @@
 	     <img src="https://images.pexels.com/photos/2067431/pexels-photo-2067431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="95%" class="banner">
 		
 			<a href="https://drive.google.com/file/d/1PVxaEaDKHNKZi7u2cEQE3bHCiSY_Re13/view?usp=sharing">
-		<button>Menu</button>
-				</a>
-		<button>Location</button>
-		<button>Order Online</button>
-		<button>Catering</button>
+		<button><strong>Menu</strong></button>
+			</a>
+		<button><strong>Location</strong></button>
+		<button><strong>Order Online</strong></button>
+		<button><strong>Catering</strong></button>
 		
-		<div>
-		<section><img src="https://github.com/anettemontane04/Portfolio/blob/main/gra1750P5AnetteMontane2024/Flutter%20Fox%20Mascots.png?raw=true" width="250" class="mascots"></section>
 		
-		<section><h4> <strong>Welcome to FlutterFox Café &amp; Bakery!</strong>
+		
+			
+			<div>
+			<img src="https://github.com/anettemontane04/Portfolio/blob/main/gra1750P5AnetteMontane2024/Flutter%20Fox%20Mascots.png?raw=true" width="30%" style="float:left; margin: 10px;"></div> 
+		
+<h4><center>Welcome to FlutterFox Café &amp; Bakery!</center><br>	
+Step into a whimsical world where every bite is a treat and every sip is a delight. At FlutterFox, we specialize in freshly baked pastries, rich coffee, and a cozy atmosphere that invites you to relax and enjoy. Whether you’re here to savor a warm croissant, indulge in a decadent cupcake, or sip on our signature lattes, there's always something to satisfy your cravings.
 
-         Step into a whimsical world where every bite is a treat and every sip is a delight. At FlutterFox, we specialize in freshly baked pastries, rich coffee, and a cozy atmosphere that invites you to relax and enjoy. Whether you’re here to savor a warm croissant, indulge in a decadent cupcake, or sip on our signature lattes, there's always something to satisfy your cravings.
+Our charming mascots, <em>BatBerry</em> and <em>Sugarfox</em> , bring a playful touch to the café. With their mischievous smiles and love for adventure, they’re always fluttering around to bring joy and a little bit of magic to your day. Just like them, we believe every visit should feel like a cozy escape, where delicious things are always just a bite away.
 
-        Our charming mascots, BatBerry and Sugarfox , bring a playful touch to the café. With their mischievous smiles and love for adventure, they’re always fluttering around to bring joy and a little bit of magic to your day. Just like them, we believe every visit should feel like a cozy escape, where delicious things are always just a bite away.
-
-        Come in, stay awhile, and let us share the warmth of FlutterFox with you!
-</h4></section>
-	 </div>
+Come in, stay awhile, and let us share the warmth of FlutterFox with you!</h4>
+	
+	 
 		
 		
 		</main>
 		
-	    <footer>
-		© 2024, Anette Montane.
+	    <footer><strong>
+		© 2024, Anette Montane.<br>
 
 This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.
-		</footer>
+		</strong></footer>
 	</wrapper>
 </body>
 </html>
